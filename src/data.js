@@ -1,6 +1,6 @@
 import crypto from './assests/crypto-1.png'
 // import shop from './assests/shop-1.png'
-import todo from './assests/todo-1.png'
+import TaskManager from './assests/todo-1.png'
 // import weather from './assests/weather-1.png'
 import game from './assests/game-1.png'
 import maxxcoffee from './assests/maxxcoffee.png'
@@ -64,12 +64,12 @@ export const project = [
     },
     {
         id: 5,
-        src: todo,
-        title: 'Todo App',
+        src: TaskManager,
+        title: 'Task Manager',
         alt: 'Todo image',
         github: 'https://github.com/armandrik/React-todo',
         demo: 'https://react-todo-app-drik.netlify.app/',
-        ModalTitle: "Todo App - React.js, useReducer",
+        ModalTitle: "Task Manager - React.js, useReducer",
         describe: ["Task manager implemented with React, useReducer and Material UI.", "Handling actions with useReducer.", "Ensured a responsive design for optimal user experience."],
         tech: [reactLogo, javascriptLogo, materialLogo, htmlLogo, sassLogo]
     },
